@@ -1,0 +1,24 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/unplugschool/presentations.git"
+  },
+  "author": "Ed Rivas <ed@unplug.studio>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/unplugschool/presentations/issues"
+  },
+  "homepage": "https://gitlab.com/unplugschool/presentations#README",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~3.6.0",
+    "revealer": "~2.0.4"
+  }
+}
