@@ -12,8 +12,8 @@
     "type": "git",
     "url": "git+ssh://git@gitlab.com/unplugschool/presentations.git"
   },
-  "author": "Ed Rivas <ed@unplug.studio>",
-  "license": "ISC",
+  "author": "Unplug School",
+  "license": "MIT",
   "bugs": {
     "url": "https://gitlab.com/unplugschool/presentations/issues"
   },
