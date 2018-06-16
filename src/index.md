@@ -152,8 +152,6 @@ Puedes también colocar elementos dentro de otros elementos  — esto se llama a
 
 ---
 
-## Elementos anidados
-
 El orden es importante. *Esto es incorrecto:*
 
 ```html
@@ -168,8 +166,6 @@ Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuen
 
 ## El esqueleto HTML
 
----
-
 ```html
 <!DOCTYPE html>
 <html>
@@ -178,7 +174,7 @@ Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuen
     <title>Mi perfil</title>
   </head>
   <body>
-    <img src="imagenes/perfil.png" alt="Mi imagen de perfil">
+    <img src="imagenes/perfil.png" alt="Foto de Eduardo">
   </body>
 </html>
 ```
@@ -191,3 +187,146 @@ Notes:
 - `<body></body>` — el elemento `<body>`. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
 - `<meta charset="utf-8">` — este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
 - `<title></title>` — establece el título de tu página, que es el título que aparece en la pestaña del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+
+---
+
+## Imágenes
+
+```html
+<img src="imagenes/perfil.jpg" alt="Fotografía de Eduardo">
+```
+
+Utiliza una `<img>` para añadir tu foto.
+
+Notes:
+
+Como dijimos antes, incrusta una imagen en nuestra página, en la posición en que aparece. Lo logra a través del atributo src (source), el cual contiene el path (o ubicación) de nuestro archivo de imagen.
+
+También incluimos un atributo alt (alternative) — el cual contiene un texto que debería describir la imagen, y que podría ser accedido por usuarios que no pueden ver la imagen
+
+---
+
+## Texto
+
+---
+
+### Encabezados
+
+```html
+<h1>Mi titulo principal</h1>
+<h2>Mi titulo de nivel superior</h2>
+<h3>Mi subtitulo</h3>
+<h4>Mi sub-subtitulo</h4>
+```
+
+Añade tu nombre utilizando un `<h1>`.
+
+Notes:
+
+Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. De la misma forma que un libro tiene un título principal, y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también. HTML posee seis niveles de encabezados, `<h1>–<h6>`, aunque probablemente sólo llegues a usar 3-4 como mucho:
+
+---
+
+### Párrafos
+
+```html
+<p>Este es un simple parrafo</p>
+```
+
+Añade tu cita favorita como un `<p>`.
+
+---
+
+### Listas numeradas
+
+`<ol>` viene de "ordered list" y `<li>` de "list item".
+
+```html
+<ol>
+  <li>Gatear</li>
+  <li>Caminar</li>
+  <li>Correr</li>
+</ol>
+```
+
+---
+
+### Listas no numeradas
+
+`<ul>` viene de "unordered list".
+
+```html
+<ul>
+  <li>Perros</li>
+  <li>Gatos</li>
+  <li>Conejos</li>
+</ul>
+```
+
+Añade un `<h2>` con el texto "Mis gustos" y luego añade una `<ul>` con al menos tres `<li>` anidados.
+
+---
+
+### Enlaces (links)
+
+```html
+<a>Mi página favorita</a>
+```
+
+Inicia con un poco de texto y la etiqueta `<a>`.
+
+---
+
+```html
+<a href="">Mi página favorita</a>
+```
+
+Añade el atributo `href=""`.
+
+---
+
+```html
+<a href="http://gooogle.com">Mi página favorita</a>
+```
+
+Llena el atributo `href` con la URL.
+
+---
+
+## Resultado
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil - Eduardo Rivas</title>
+</head>
+
+<body>
+    <img src="imagenes/perfil.jpg" alt="Eduardo Rivas">
+    <h1>Eduardo Rivas</h1>
+
+    <p>No nos cansemos...</p>
+
+    <h2>Gustos</h2>
+    <ul>
+        <li>HTML y CSS</li>
+        <li>Videojuegos</li>
+        <li>Perros y dinosaurios</li>
+        <li>Voluntariado</li>
+        <li>Twitter: <a href="http://twitter.com/je92rivas">@je92rivas</a></li>
+    </ul>
+</body>
+</html>
+```
+
+---
+
+![Página de solo HTML](img/html-only.png)
+
+Notes:
+
+- Cambia el título de la pestaña modificando el `<title>`
+- Observa como el navegador entiende que `<h1>` es más importante que `<h2>`.
+- Observa que puedes hacer clic en el enlace y que el navegador te lleve a la página correcta
