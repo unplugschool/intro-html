@@ -330,3 +330,359 @@ Notes:
 - Cambia el título de la pestaña modificando el `<title>`
 - Observa como el navegador entiende que `<h1>` es más importante que `<h2>`.
 - Observa que puedes hacer clic en el enlace y que el navegador te lleve a la página correcta
+
+===
+
+# CSS
+
+Cascading Style Sheets
+
+---
+
+CSS es un *lenguaje de hojas de estilo*, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML.
+
+Notes:
+
+Si HTML provee la estructura y el significado, CSS provee el estilo y diseño. Con CSS es posible controlar la apariencia de casi cualquier parte de una página web, incluyendo la tipografía, colores, disposición y tamaño de los elementos.
+
+---
+
+Crea el archivo `style.css` junto a `index.html`
+
+```css
+p {
+    color: red;
+}
+```
+
+---
+
+Incluye tu hoja de estilos en el `<head>` del documento
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil - Eduardo Rivas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+```
+
+---
+
+![HTML con CSS básico](img/basic-css.png)
+
+---
+
+## Reglas CSS
+
+Las hojas de estilo son una colección de reglas
+
+![Diagrama de regla CSS](img/csspartes.png)
+
+Notes:
+
+- **Selector**: El elemento HTML en el que comienza la regla. esta selecciona el(los) elemento(s) a dar estilo (en este caso, los elementos p ). Para dar estilo a un elemento diferente, solo cambia el selector.
+- **Declaración**: Una sola regla como color: red; especifica a cuál de las propiedades del elemento quieres dar estilo.
+- **Propiedades**: Maneras en las cuales puedes dar estilo a un elemento HTML. (En este caso, color es una propiedad del elemento p.) En CSS, seleccionas que propiedad quieres afectar en tu regla.
+- **Valor de la propiedad**: A la derecha de la propiedad, después de los dos puntos (:), tenemos el valor de la propiedad, para elegir una de las muchas posibles apariencias para una propiedad determinada (hay muchos valores para color además de red).
+
+---
+
+Las reglas incluyen múltiples declaraciones:
+
+```css
+p {
+    color: red;
+    background-color: green;
+}
+```
+
+Notes:
+
+- Cada una de las reglas (aparte del selector) deben estar encapsulada entre corchetes ({}).
+- Dentro de cada declaración, debes usar los dos puntos (:) para separar la propiedad de su valor.
+- Dentro de cada regla, debes usar el punto y coma (;) para separar una declaración de la siguiente.
+
+---
+
+![Resultado de dos declaraciones CSS](img/basic-css-2.png)
+
+---
+
+## Selectores
+
+| Selector  | Selecciona                           |
+| --------  | ------------------------------------ |
+| p, li, h1 | `<p>`, `<li>` y `<h1>`               |
+| #mi-id    | Único elemento con `id="mi-id"`      |
+| .mi-clase | Todo elemento con `class="mi-clase"` |
+
+Notes:
+
+- Selector de elemento: Todos los elementos HTML del tipo especificado
+- Selector de identificación (ID): El elemento en la página con el ID especificado  (en una página HTML dada, solo se permite un unico elemento por ID).
+- Selector de Clase: Los elementos en la página con la clase especificada (una clase puede aparecer varias veces en una página).
+
+---
+
+## Estilos básicos
+
+```css
+body {
+    font-family: sans-serif;
+    background-image: url(imagenes/fondo.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+```
+
+Notes:
+
+Aplica las declaraciones una por una y observa su efecto.
+
+---
+
+![Página con nuevo fondo aplicado](img/css-1.png)
+
+---
+
+## Conoce a las `<div>`
+
+Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando CSS.
+
+---
+
+![Diseño por secciones](img/example-annotated.jpg)
+
+---
+
+```html
+<body>
+    <div class="perfil">
+        <!-- Todo lo demás -->
+    </div>
+</body>
+```
+
+---
+
+```html
+<div class="cabecera">
+    <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
+    <h1>Eduardo Rivas</h1>
+</div>
+```
+
+---
+
+```html
+<div class="detalles">
+    <p>No nos cansemos...</p>
+    <h2>Mis gustos</h2>
+    <ul>...</ul>
+</div>
+```
+
+---
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Perfil - Eduardo Rivas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="perfil">
+    <div class="cabecera">
+      <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
+      <h1>Eduardo Rivas</h1>
+    </div>
+
+    <div class="detalles">
+      <p>No nos cansemos...</p>
+      <h2>Gustos</h2>
+      <ul>
+        <li>HTML y CSS</li>
+        <li>Videojuegos</li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
+```
+
+Notes:
+
+Verifica que el `<body>` de tu documento se vea como lo que ves arriba. Lo importante es que tengas tres divs con las clases correctas aplicadas. El resultado en el navegador se verá idéntico, ya que las divs no producen ningún cambio hasta que se les aplican estilos.
+
+---
+
+Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegador.
+
+```css
+.perfil {
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+```
+
+---
+
+![](img/css-2.png)
+
+---
+
+```css
+.cabecera {
+    background-color: #00443A;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+```
+
+---
+
+![](img/css-3.png)
+
+---
+
+```css
+.cabecera img {
+    border-color: #fff;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    max-width: 35%;
+}
+```
+
+Notes:
+
+Ahora estamos utilizando el selector de clase y elemento juntos para indicar que queremos seleccionar la `<img>` que está dentro de la div con clase "cabecera".
+
+---
+
+![](img/css-4.png)
+
+---
+
+```css
+.detalles {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+```
+
+---
+
+![](img/css-5.png)
+
+---
+
+```css
+.detalles ul {
+    padding-left: 20px;
+}
+```
+
+---
+
+![](img/css-6.png)
+
+Notes:
+
+Prueba con estas propiedas:
+
+- font-size: 50px
+- font-style: italic
+- line-height: 2
+- text-shadow: 0 0 50px black
+- box-shadow: 0 0 50px black
+
+---
+
+## 🎉 ¡Misión cumplida! 🎉
+
+Has creado tu primera página web
+
+Notes:
+
+Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
+
+===
+
+# Repaso
+
+---
+
+## Internet
+
+- Una red de computadoras
+- Clientes y servidores
+- Utiliza HTML, CSS, y JavaScript
+
+---
+
+## HTML
+
+- Lenguaje de marcado
+- Provee estructura y contenido
+- Compuesto por etiquetas
+- Las etiquetas pueden anidarse
+- Las etiquetas aceptan atributos
+
+---
+
+```html
+<div class="cabecera">
+    <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
+    <h1>Eduardo Rivas</h1>
+</div>
+```
+
+---
+
+## CSS
+
+- Lenguaje de hoja de estilos
+- Define el estilo y apariencia
+- Compuesto por reglas
+- Las reglas contienen selectores y declaraciones
+
+---
+
+```css
+.cabecera img {
+    border-color: #fff;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 10px;
+    max-width: 35%;
+}
+```
+
+---
+
+## ¿Preguntas? 🤔
+
+===
+
+# Siguientes pasos
+
+---
+
+- La práctica hace al maestro
+- Eres el responsable de tu aprendizaje
+- Utiliza los recursos que recibiste
+- Queremos saber tu opinión
