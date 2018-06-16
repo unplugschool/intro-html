@@ -21,6 +21,6 @@
   "private": true,
   "dependencies": {
     "reveal.js": "~3.6.0",
-    "revealer": "~2.0.4"
+    "revealer": "^2.1.2"
   }
 }
