@@ -1,12 +1,12 @@
-# Unplug School
+![](img/logo.png)
 
 ===
 
-# Introducción
+# Introducción ⏳
 
 ---
 
-## Acerca de ti
+## Acerca de ti 🙋🏻‍♀️
 
 - Nombre, gustos, trabajo, pasatiempos
 - ¿Qué te llamó la atención de este taller?
@@ -14,7 +14,7 @@
 
 ---
 
-## Acerca de mí
+## Acerca de mí 🙋🏻‍♂️
 
 - Desarrollo web
 - Comunidades de tecnología y aprendizaje
@@ -23,11 +23,11 @@
 
 ===
 
-# Claves para aprender
+# Claves para aprender 📖
 
 ---
 
-## Reglas de aprendizaje
+## Reglas de aprendizaje 📃
 
 - No hay preguntas tontas
 - La práctica hace al maestro
@@ -36,11 +36,11 @@
 
 ===
 
-# ¿Qué haremos hoy?
+# ¿Qué haremos hoy? ⚡
 
 ---
 
-## Proyecto del día
+## Proyecto del día ☀
 
 Crearás tu propia página de perfil en internet. No utilizaremos redes sociales o alguna otra herramienta existente, crearás tu página desde cero como lo hacen los profesionales.
 
@@ -50,7 +50,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 
 ---
 
-### Preparación
+### Preparación 😎
 
 - Instalación de Visual Studio Code
 - Foto de perfil (Croppola)
@@ -61,7 +61,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 
 ---
 
-### Estructura de archivos
+### Estructura de archivos 📂
 
 - Crea el archivo `index.html`
 - Crea una carpeta junto a ese archivo, llamada `imagenes`
@@ -74,7 +74,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 
 ===
 
-# ¿Cómo funciona internet?
+# ¿Cómo funciona internet? ☁
 
 ---
 
@@ -89,7 +89,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 
 ---
 
-### Los tres pilares de todo sitio web
+### Los 3 pilares de todo sitio web 🏠
 
 - Hyper Text Markup Language (HTML): estructura y significado
 - Cascading Style Sheets (CSS): visualización y experiencia de usuario
@@ -97,7 +97,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 
 ===
 
-# HTML
+# HTML 👩🏻‍💻
 
 Hyper Text Markup Language
 
@@ -333,7 +333,7 @@ Notes:
 
 ===
 
-# CSS
+# CSS 🖌
 
 Cascading Style Sheets
 
@@ -622,11 +622,11 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ===
 
-# Repaso
+# Repaso 🔃
 
 ---
 
-## Internet
+## Internet ☁
 
 - Una red de computadoras
 - Clientes y servidores
@@ -634,7 +634,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ---
 
-## HTML
+## HTML 👩🏻‍💻
 
 - Lenguaje de marcado
 - Provee estructura y contenido
@@ -653,7 +653,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ---
 
-## CSS
+## CSS 🖌
 
 - Lenguaje de hoja de estilos
 - Define el estilo y apariencia
@@ -678,7 +678,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ===
 
-# Siguientes pasos
+# Siguientes pasos 🚀
 
 ---
 
