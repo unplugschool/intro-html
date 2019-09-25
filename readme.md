@@ -1,10 +1,10 @@
-![](img/logo.png)
+![](assets/img/logo.png)
 
-===
+---
 
 # Introducción ⏳
 
----
+-
 
 ## Acerca de ti 🙋🏻‍♀️
 
@@ -12,7 +12,7 @@
 - ¿Qué te llamó la atención de este taller?
 - ¿Qué esperas haber logrado al finalizar el taller?
 
----
+-
 
 ## Acerca de mí 🙋🏻‍♂️
 
@@ -21,11 +21,11 @@
 - Unplug Studio y Unplug School
 - Espero ayudarles a iniciar su travesía por el mundo de la tecnología
 
-===
+---
 
 # Claves para aprender 📖
 
----
+-
 
 ## Reglas de aprendizaje 📃
 
@@ -34,21 +34,21 @@
 - Equivocarse es parte del proceso
 - Tú eres el encargado de tu aprendizaje
 
-===
+---
 
 # ¿Qué haremos hoy? ⚡
 
----
+-
 
 ## Proyecto del día ☀
 
 Crearás tu propia página de perfil en internet. No utilizaremos redes sociales o alguna otra herramienta existente, crearás tu página desde cero como lo hacen los profesionales.
 
----
+-
 
-![Ejemplo del perfil que crearemos hoy](img/example.jpg)
+![Ejemplo del perfil que crearemos hoy](assets/img/example.jpg)
 
----
+-
 
 ### Preparación 😎
 
@@ -59,7 +59,7 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 - Cita favorita
 - Gustos y link favorito
 
----
+-
 
 ### Estructura de archivos 📂
 
@@ -68,26 +68,26 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 - Guarda tus imágenes en esa carpeta
 - No utilices espacios ni caracteres especiales
 
+-
+
+![Estructura de archivos](assets/img/files.png)
+
 ---
-
-![Estructura de archivos](img/files.png)
-
-===
 
 # ¿Cómo funciona internet? ☁
 
----
+-
 
-![Una red de servidores](img/internet-nodes.png)
+![Una red de servidores](assets/img/internet-nodes.png)
 
----
+-
 
 ## Clientes y servidores
 
 - Cliente: El dispositivo que solicita el contenido
 - Servidor: El dispositivo que provee el contenido
 
----
+-
 
 ### Los 3 pilares de todo sitio web 🏠
 
@@ -95,13 +95,13 @@ Crearás tu propia página de perfil en internet. No utilizaremos redes sociales
 - Cascading Style Sheets (CSS): visualización y experiencia de usuario
 - JavaScript (JS): interactividad y comportamiento avanzado
 
-===
+---
 
 # HTML 👩🏻‍💻
 
 Hyper Text Markup Language
 
----
+-
 
 HTML no es realmente un lenguaje de programación; es un lenguaje de marcado, y es usado para decirle al navegador cómo desplegar las páginas web que visitas.
 
@@ -109,11 +109,11 @@ Notes:
 
 Puede ser tan complicado o simple como el diseñador web lo desee. HTML consiste en una serie de elementos, que usas para encerrar diferentes partes del contenido para que éstos se muestren o actúen de cierta manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo hacia otro sitio, pueden convertir palabras en cursivas, agrandar y achicar las fuentes, y así. Por ejemplo, mira el siguiente contenido:
 
----
+-
 
 ## Elementos HTML
 
-![Anatomía de una etiqueta](img/html-element.png)
+![Anatomía de una etiqueta](assets/img/html-element.png)
 
 Notes:
 
@@ -122,11 +122,11 @@ Notes:
 - El contenido: este es el contenido del elemento, que en este caso es sólo texto.
 - El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
 
----
+-
 
 ## Atributos HTML
 
-![Atributos HTML](img/htmlatributos.png)
+![Atributos HTML](assets/img/htmlatributos.png)
 
 Notes:
 
@@ -138,7 +138,7 @@ Un atributo debe tener siempre:
 - El nombre del atributo, seguido por un signo de igual (=).
 - Comillas de apertura y de cierre, encerrando el valor del atributo.
 
----
+-
 
 ## Elementos anidados
 
@@ -150,7 +150,7 @@ Notes:
 
 Puedes también colocar elementos dentro de otros elementos  — esto se llama anidamiento. Si, por ejemplo, queremos resaltar una palabra del texto (en nuestro ejemplo la palabra "muy"), podemos encerrarla en un elemento `<strong>`, que significa que dicha palabra debe ser enfatizada
 
----
+-
 
 El orden es importante. *Esto es incorrecto:*
 
@@ -162,7 +162,7 @@ Notes:
 
 Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuentren claramente dentro o fuera el uno del otro. Si éstos se encuentran solapados, el navegador web tratará de adivinar lo que intentas decirle, pero puede que obtengas resultados inesperados. Así que, ¡no lo hagas!
 
----
+-
 
 ## El esqueleto HTML
 
@@ -188,7 +188,7 @@ Notes:
 - `<meta charset="utf-8">` — este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
 - `<title></title>` — establece el título de tu página, que es el título que aparece en la pestaña del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
 
----
+-
 
 ## Imágenes
 
@@ -204,11 +204,11 @@ Como dijimos antes, incrusta una imagen en nuestra página, en la posición en q
 
 También incluimos un atributo alt (alternative) — el cual contiene un texto que debería describir la imagen, y que podría ser accedido por usuarios que no pueden ver la imagen
 
----
+-
 
 ## Texto
 
----
+-
 
 ### Encabezados
 
@@ -225,7 +225,7 @@ Notes:
 
 Los elementos de encabezado permiten especificar que ciertas partes del contenido son encabezados, o subencabezados del contenido. De la misma forma que un libro tiene un título principal, y que a su vez puede tener títulos por cada capítulo individual, y subtítulos dentro de ellos, un documento HTML puede tenerlos también. HTML posee seis niveles de encabezados, `<h1>–<h6>`, aunque probablemente sólo llegues a usar 3-4 como mucho:
 
----
+-
 
 ### Párrafos
 
@@ -235,7 +235,7 @@ Los elementos de encabezado permiten especificar que ciertas partes del contenid
 
 Añade tu cita favorita como un `<p>`.
 
----
+-
 
 ### Listas numeradas
 
@@ -249,7 +249,7 @@ Añade tu cita favorita como un `<p>`.
 </ol>
 ```
 
----
+-
 
 ### Listas no numeradas
 
@@ -265,7 +265,7 @@ Añade tu cita favorita como un `<p>`.
 
 Añade un `<h2>` con el texto "Mis gustos" y luego añade una `<ul>` con al menos tres `<li>` anidados.
 
----
+-
 
 ### Enlaces (links)
 
@@ -275,7 +275,7 @@ Añade un `<h2>` con el texto "Mis gustos" y luego añade una `<ul>` con al meno
 
 Inicia con un poco de texto y la etiqueta `<a>`.
 
----
+-
 
 ```html
 <a href="">Mi página favorita</a>
@@ -283,7 +283,7 @@ Inicia con un poco de texto y la etiqueta `<a>`.
 
 Añade el atributo `href=""`.
 
----
+-
 
 ```html
 <a href="http://gooogle.com">Mi página favorita</a>
@@ -291,7 +291,7 @@ Añade el atributo `href=""`.
 
 Llena el atributo `href` con la URL.
 
----
+-
 
 ## Resultado
 
@@ -321,9 +321,9 @@ Llena el atributo `href` con la URL.
 </html>
 ```
 
----
+-
 
-![Página de solo HTML](img/html-only.png)
+![Página de solo HTML](assets/img/html-only.png)
 
 Notes:
 
@@ -331,13 +331,13 @@ Notes:
 - Observa como el navegador entiende que `<h1>` es más importante que `<h2>`.
 - Observa que puedes hacer clic en el enlace y que el navegador te lleve a la página correcta
 
-===
+---
 
 # CSS 🖌
 
 Cascading Style Sheets
 
----
+-
 
 CSS es un *lenguaje de hojas de estilo*, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML.
 
@@ -345,7 +345,7 @@ Notes:
 
 Si HTML provee la estructura y el significado, CSS provee el estilo y diseño. Con CSS es posible controlar la apariencia de casi cualquier parte de una página web, incluyendo la tipografía, colores, disposición y tamaño de los elementos.
 
----
+-
 
 Crea el archivo `style.css` junto a `index.html`
 
@@ -355,7 +355,7 @@ p {
 }
 ```
 
----
+-
 
 Incluye tu hoja de estilos en el `<head>` del documento
 
@@ -367,17 +367,17 @@ Incluye tu hoja de estilos en el `<head>` del documento
 </head>
 ```
 
----
+-
 
-![HTML con CSS básico](img/basic-css.png)
+![HTML con CSS básico](assets/img/basic-css.png)
 
----
+-
 
 ## Reglas CSS
 
 Las hojas de estilo son una colección de reglas
 
-![Diagrama de regla CSS](img/csspartes.png)
+![Diagrama de regla CSS](assets/img/csspartes.png)
 
 Notes:
 
@@ -386,7 +386,7 @@ Notes:
 - **Propiedades**: Maneras en las cuales puedes dar estilo a un elemento HTML. (En este caso, color es una propiedad del elemento p.) En CSS, seleccionas que propiedad quieres afectar en tu regla.
 - **Valor de la propiedad**: A la derecha de la propiedad, después de los dos puntos (:), tenemos el valor de la propiedad, para elegir una de las muchas posibles apariencias para una propiedad determinada (hay muchos valores para color además de red).
 
----
+-
 
 Las reglas incluyen múltiples declaraciones:
 
@@ -403,11 +403,11 @@ Notes:
 - Dentro de cada declaración, debes usar los dos puntos (:) para separar la propiedad de su valor.
 - Dentro de cada regla, debes usar el punto y coma (;) para separar una declaración de la siguiente.
 
----
+-
 
-![Resultado de dos declaraciones CSS](img/basic-css-2.png)
+![Resultado de dos declaraciones CSS](assets/img/basic-css-2.png)
 
----
+-
 
 ## Selectores
 
@@ -423,7 +423,7 @@ Notes:
 - Selector de identificación (ID): El elemento en la página con el ID especificado  (en una página HTML dada, solo se permite un unico elemento por ID).
 - Selector de Clase: Los elementos en la página con la clase especificada (una clase puede aparecer varias veces en una página).
 
----
+-
 
 ## Estilos básicos
 
@@ -441,21 +441,21 @@ Notes:
 
 Aplica las declaraciones una por una y observa su efecto.
 
----
+-
 
-![Página con nuevo fondo aplicado](img/css-1.png)
+![Página con nuevo fondo aplicado](assets/img/css-1.png)
 
----
+-
 
 ## Conoce a las `<div>`
 
 Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando CSS.
 
----
+-
 
-![Diseño por secciones](img/example-annotated.jpg)
+![Diseño por secciones](assets/img/example-annotated.jpg)
 
----
+-
 
 ```html
 <body>
@@ -465,7 +465,7 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 </body>
 ```
 
----
+-
 
 ```html
 <div class="cabecera">
@@ -474,7 +474,7 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 </div>
 ```
 
----
+-
 
 ```html
 <div class="detalles">
@@ -484,7 +484,7 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 </div>
 ```
 
----
+-
 
 ```html
 <!DOCTYPE html>
@@ -520,7 +520,7 @@ Notes:
 
 Verifica que el `<body>` de tu documento se vea como lo que ves arriba. Lo importante es que tengas tres divs con las clases correctas aplicadas. El resultado en el navegador se verá idéntico, ya que las divs no producen ningún cambio hasta que se les aplican estilos.
 
----
+-
 
 Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegador.
 
@@ -533,11 +533,11 @@ Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegado
 }
 ```
 
----
+-
 
-![](img/css-2.png)
+![](assets/img/css-2.png)
 
----
+-
 
 ```css
 .cabecera {
@@ -549,11 +549,11 @@ Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegado
 }
 ```
 
----
+-
 
-![](img/css-3.png)
+![](assets/img/css-3.png)
 
----
+-
 
 ```css
 .cabecera img {
@@ -569,11 +569,11 @@ Notes:
 
 Ahora estamos utilizando el selector de clase y elemento juntos para indicar que queremos seleccionar la `<img>` que está dentro de la div con clase "cabecera".
 
----
+-
 
-![](img/css-4.png)
+![](assets/img/css-4.png)
 
----
+-
 
 ```css
 .detalles {
@@ -584,11 +584,11 @@ Ahora estamos utilizando el selector de clase y elemento juntos para indicar que
 }
 ```
 
----
+-
 
-![](img/css-5.png)
+![](assets/img/css-5.png)
 
----
+-
 
 ```css
 .detalles ul {
@@ -596,9 +596,9 @@ Ahora estamos utilizando el selector de clase y elemento juntos para indicar que
 }
 ```
 
----
+-
 
-![](img/css-6.png)
+![](assets/img/css-6.png)
 
 Notes:
 
@@ -610,7 +610,7 @@ Prueba con estas propiedas:
 - text-shadow: 0 0 50px black
 - box-shadow: 0 0 50px black
 
----
+-
 
 ## 🎉 ¡Misión cumplida! 🎉
 
@@ -620,11 +620,11 @@ Notes:
 
 Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
-===
+---
 
 # Repaso 🔃
 
----
+-
 
 ## Internet ☁
 
@@ -632,7 +632,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 - Clientes y servidores
 - Utiliza HTML, CSS, y JavaScript
 
----
+-
 
 ## HTML 👩🏻‍💻
 
@@ -642,7 +642,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 - Las etiquetas pueden anidarse
 - Las etiquetas aceptan atributos
 
----
+-
 
 ```html
 <div class="cabecera">
@@ -651,7 +651,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 </div>
 ```
 
----
+-
 
 ## CSS 🖌
 
@@ -660,7 +660,7 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 - Compuesto por reglas
 - Las reglas contienen selectores y declaraciones
 
----
+-
 
 ```css
 .cabecera img {
@@ -672,15 +672,15 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 }
 ```
 
----
+-
 
 ## ¿Preguntas? 🤔
 
-===
+---
 
 # Siguientes pasos 🚀
 
----
+-
 
 - La práctica hace al maestro
 - Eres el responsable de tu aprendizaje
