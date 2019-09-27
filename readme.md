@@ -2,98 +2,98 @@
 
 ---
 
-# Introducción ⏳
+# Introduction ⏳
 
 -
 
-## Acerca de ti 🙋🏻‍♀️
+## About you 🙋🏻‍♀️
 
-- Nombre, gustos, trabajo, pasatiempos
-- ¿Qué te llamó la atención de este taller?
-- ¿Qué esperas haber logrado al finalizar el taller?
+- Name, likes, work
+- What brought you to this workshop?
+- What do you expect to get out of it?
 
 -
 
-## Acerca de mí 🙋🏻‍♂️
+## About me 🙋🏻‍♂️
 
-- Desarrollo web
-- Comunidades de tecnología y aprendizaje
-- Unplug Studio y Unplug School
-- Espero ayudarles a iniciar su travesía por el mundo de la tecnología
+- Web developer
+- Tech & learning communities
+- Unplug Studio & Unplug School
+- Looking forward to help in your first steps
 
 ---
 
-# Claves para aprender 📖
+# Learning tips 📖
 
 -
 
-## Reglas de aprendizaje 📃
+## Rules 📃
 
-- No hay preguntas tontas
-- La práctica hace al maestro
-- Equivocarse es parte del proceso
-- Tú eres el encargado de tu aprendizaje
+- There are no dumb questions
+- Practice makes perfect
+- Mistakes are part of the process
+- You are in charge of learning
 
 ---
 
-# ¿Qué haremos hoy? ⚡
+# What are we doing today? ⚡
 
 -
 
-## Proyecto del día ☀
+## Today's project ☀
 
-Crearás tu propia página de perfil en internet. No utilizaremos redes sociales o alguna otra herramienta existente, crearás tu página desde cero como lo hacen los profesionales.
-
--
-
-![Ejemplo del perfil que crearemos hoy](assets/img/example.jpg)
+You'll create your own profile page on the internet. We won't be using social media nor other existing tools. You'll create your page from scratch, like a pro!
 
 -
 
-### Preparación 😎
-
-- Instalación de Visual Studio Code
-- Foto de perfil (Croppola)
-- Color favorito (W3 School: RGB Colors)
-- Imagen de fondo
-- Cita favorita
-- Gustos y link favorito
+![Example profile page](assets/img/example.jpg)
 
 -
 
-### Estructura de archivos 📂
+### Get ready 😎
 
-- Crea el archivo `index.html`
-- Crea una carpeta junto a ese archivo, llamada `imagenes`
-- Guarda tus imágenes en esa carpeta
-- No utilices espacios ni caracteres especiales
+- Install a code editor
+- Profile picture (Croppola)
+- Favorite color code (W3 School: RGB Colors)
+- Background image
+- Favorite quote
+- Likes and favorite link
 
 -
 
-![Estructura de archivos](assets/img/files.png)
+### File structure 📂
+
+- Create a file `index.html`
+- Create a folder next to it `images`
+- Put your images in the folder
+- Let's avoid special characters and spaces in filenames
+
+-
+
+![Screenshot of file structure](assets/img/files.png)
 
 ---
 
-# ¿Cómo funciona internet? ☁
+# How does the Internet work? ☁
 
 -
 
-![Una red de servidores](assets/img/internet-nodes.png)
+![Network map](assets/img/internet-nodes.png)
 
 -
 
-## Clientes y servidores
+## Clients and servers
 
-- Cliente: El dispositivo que solicita el contenido
-- Servidor: El dispositivo que provee el contenido
+- Client: The device that requests the content
+- Server: The device that serves the content
 
 -
 
-### Los 3 pilares de todo sitio web 🏠
+### 3 pillars of a website 🏠
 
-- Hyper Text Markup Language (HTML): estructura y significado
-- Cascading Style Sheets (CSS): visualización y experiencia de usuario
-- JavaScript (JS): interactividad y comportamiento avanzado
+- Hyper Text Markup Language (HTML): structure and meaning
+- Cascading Style Sheets (CSS): appearance and layout
+- JavaScript (JS): interactivity and advanced behavior
 
 ---
 
@@ -103,100 +103,100 @@ Hyper Text Markup Language
 
 -
 
-HTML no es realmente un lenguaje de programación; es un lenguaje de marcado, y es usado para decirle al navegador cómo desplegar las páginas web que visitas.
+HTML is not a programming language; it's a markup language. It's used to tell the browser how to display the sites you visit.
 
 Notes:
 
-Puede ser tan complicado o simple como el diseñador web lo desee. HTML consiste en una serie de elementos, que usas para encerrar diferentes partes del contenido para que éstos se muestren o actúen de cierta manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo hacia otro sitio, pueden convertir palabras en cursivas, agrandar y achicar las fuentes, y así. Por ejemplo, mira el siguiente contenido:
+This can be as complex or simple as the web designer desires it. HTML consists of a series of elements that wrap your content to look and behave as you want. With HTML you can make words link to other sites, add bold or italics, and more:
 
 -
 
-## Elementos HTML
+## HTML Elements
 
-![Anatomía de una etiqueta](assets/img/html-element.png)
+![Diagram of HTML element](assets/img/html-element.png)
 
 Notes:
 
-- La etiqueta de apertura: consiste en el nombre del elemento (en este caso, p), encerrado por paréntesis angulares (< >) de apertura y cierre. Establece dónde comienza o empieza a tener efecto el elemento — en este caso, dónde es el comienzo del párrafo.
-- La etiqueta de cierre: es igual que la etiqueta de apertura, excepto que incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina el elemento — en este caso dónde termina el párrafo.
-- El contenido: este es el contenido del elemento, que en este caso es sólo texto.
-- El elemento: la etiqueta de apertura, más la etiqueta de cierre, más el contenido equivale al elemento.
+- Opening tag: consists of the name of the element (in this case "p"), enclosed by angle brackets. It establishes where the element starts to have its effect - in this case, where the paragraph starts.
+- Closing tag: just like the opening tag, but includes a slash before the element name. Establishes where the element ends - in this case, where the paragraph ends.
+- Content: the content of the element, in this case plain text.
+- Element: the opening and closing tags, and the content enclosed by them.
 
 -
 
-## Atributos HTML
+## HTML Attributes
 
-![Atributos HTML](assets/img/htmlatributos.png)
+![HTML attribute diagram](assets/img/htmlatributos.png)
 
 Notes:
 
-Los atributos contienen información adicional acerca del elemento, la cual no quieres que aparezca en el contenido real del elemento. En este caso, el atributo class permite darle al elemento un nombre identificativo, que puede ser usado luego para apuntarle al elemento información de estilo y demás cosas.
+Attributes contain additional (non-content) information about an element. In this case, the class attribute allows us to give the element a significative name that can be later used to style the element.
 
-Un atributo debe tener siempre:
+Attributes must always contain:
 
-- Un espacio entre éste y el nombre del elemento (o del atributo previo, si el elemento ya posee uno o más atributos).
-- El nombre del atributo, seguido por un signo de igual (=).
-- Comillas de apertura y de cierre, encerrando el valor del atributo.
+- A space separating it from the element name or other attributes.
+- The name of the attribute, followed by the equal sign.
+- Opening and closing tags enclosing the attribute's value
 
 -
 
-## Elementos anidados
+## Nested Elements
 
 ```html
-<p>Mi gato es <strong>muy</strong> gruñon.</p>
+<p>My cat is <strong>very</strong> grumpy.</p>
 ```
 
 Notes:
 
-Puedes también colocar elementos dentro de otros elementos  — esto se llama anidamiento. Si, por ejemplo, queremos resaltar una palabra del texto (en nuestro ejemplo la palabra "muy"), podemos encerrarla en un elemento `<strong>`, que significa que dicha palabra debe ser enfatizada
+You can also put elements inside another - this is called nesting. In this case we want to highlight a single word in the paragraph, so we enclose it in the `<strong>` element.
 
 -
 
-El orden es importante. *Esto es incorrecto:*
+Order is important. *This is incorrect:*
 
 ```html
-<p>Mi gato es <strong>muy gruñon.</p></strong>
+<p>My cat is<strong>very grumpy</p></strong>
 ```
 
 Notes:
 
-Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuentren claramente dentro o fuera el uno del otro. Si éstos se encuentran solapados, el navegador web tratará de adivinar lo que intentas decirle, pero puede que obtengas resultados inesperados. Así que, ¡no lo hagas!
+Elements must be openend and closed in an orderly manner, so that they are completely enclosed by other elements (no partial overlap). If elements overlap, the web browser will try to guess what you meant, and that can lead to unexpected and weird errors.
 
 -
 
-## El esqueleto HTML
+## HTML Skeleton
 
 ```html
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Mi perfil</title>
+    <title>My Profile</title>
   </head>
   <body>
-    <img src="imagenes/perfil.png" alt="Foto de Eduardo">
+    <img src="images/profile.png" alt="Photo of ...">
   </body>
 </html>
 ```
 
 Notes:
 
-- `<!DOCTYPE html>` — el tipo de documento. Anteriormente, cuando HTML era jóven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que podía significar el chequeo de errores automático y algunas otras cosas de utilidad. Sin embargo, hoy día es simplemente un artefacto antiguo que a nadie importa, pero que debe ser incluido para que todo funcione correctamente. Por ahora, eso es todo lo que necesitas saber.
-- `<html></html>` — el elemento `<html>`. Este elemento encierra todo el contenido de la página entera, y a veces se le conoce como el elemento raíz (root element).
-- `<head></head>` — el elemento `<head>`. Este elemento actúa como un contenedor de todo aquello que queremos incluir en la página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras clave, una descripción de la página que quieres que aparezca en resultados de búsquedas, CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
-- `<body></body>` — el elemento `<body>`. Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
-- `<meta charset="utf-8">` — este elemento establece el juego de caracteres que tu documento usará en utf-8, que incluye casi todos los caracteres de todos los idiomas humanos. Básicamente, puede manejar cualquier contenido de texto que puedas incluir. No hay razón para no establecerlo, y puede evitar problemas en el futuro.
-- `<title></title>` — establece el título de tu página, que es el título que aparece en la pestaña del navegador cuando la página es cargada, y se usa para describir la página cuando es añadida a los marcadores o como favorita.
+- `<!DOCTYPE html>` — the document type. There's a history on why you need it in your page, you don't need to know about it. Just put it in there.
+- `<html></html>` — This is the top-level, all-enclosing element. Also known as the root element.
+- `<head></head>` - Contains all non-visible content that is part of the page. Includes things like keywords, descriptions, references to CSS and JS, among others.
+- `<body></body>` — Contains all content you want to display to your users including text, images, videos, games, audio tracks, and more.
+- `<meta charset="utf-8">` — Important to make sure you can use non-ASCII characters in the content of your page.
+- `<title></title>` — Establishes the page title that appears at the top of your window or tab. Also used by search engines.
 
 -
 
-## Imágenes
+## Images
 
 ```html
-<img src="imagenes/perfil.jpg" alt="Fotografía de Eduardo">
+<img src="images/profile.jpg" alt="Photo of ...">
 ```
 
-Utiliza una `<img>` para añadir tu foto.
+Use an `<img>` to add your photo.
 
 Notes:
 
@@ -206,20 +206,20 @@ También incluimos un atributo alt (alternative) — el cual contiene un texto q
 
 -
 
-## Texto
+## Text
 
 -
 
-### Encabezados
+### Headings
 
 ```html
-<h1>Mi titulo principal</h1>
-<h2>Mi titulo de nivel superior</h2>
-<h3>Mi subtitulo</h3>
-<h4>Mi sub-subtitulo</h4>
+<h1>My main heading</h1>
+<h2>My top level heading</h2>
+<h3>My subtitle</h3>
+<h4>My sub-subtitle</h4>
 ```
 
-Añade tu nombre utilizando un `<h1>`.
+Add your name using `<h1>`.
 
 Notes:
 
@@ -227,61 +227,61 @@ Los elementos de encabezado permiten especificar que ciertas partes del contenid
 
 -
 
-### Párrafos
+### Paragraphs
 
 ```html
-<p>Este es un simple parrafo</p>
+<p>This is just a paragraph</p>
 ```
 
-Añade tu cita favorita como un `<p>`.
+Add your favorite quote inside a `<p>`.
 
 -
 
-### Listas numeradas
+### Numbered lists
 
-`<ol>` viene de "ordered list" y `<li>` de "list item".
+`<ol>` stands for "ordered list" and `<li>` for "list item".
 
 ```html
 <ol>
-  <li>Gatear</li>
-  <li>Caminar</li>
-  <li>Correr</li>
+  <li>Crawl</li>
+  <li>Walk</li>
+  <li>Run</li>
 </ol>
 ```
 
 -
 
-### Listas no numeradas
+### Unordered lists
 
-`<ul>` viene de "unordered list".
+`<ul>` stands for "unordered list".
 
 ```html
 <ul>
-  <li>Perros</li>
-  <li>Gatos</li>
-  <li>Conejos</li>
+  <li>Dogs</li>
+  <li>Cats</li>
+  <li>Bunnies</li>
 </ul>
 ```
 
-Añade un `<h2>` con el texto "Mis gustos" y luego añade una `<ul>` con al menos tres `<li>` anidados.
+Add an `<h2>` with the text "My favorites" and then add a `<ul>` with at least three `<li>` inside.
 
 -
 
-### Enlaces (links)
+### Links
 
 ```html
-<a>Mi página favorita</a>
+<a>My favorite page</a>
 ```
 
-Inicia con un poco de texto y la etiqueta `<a>`.
+Start with some text wrapped by `<a>`.
 
 -
 
 ```html
-<a href="">Mi página favorita</a>
+<a href="">My favorite page</a>
 ```
 
-Añade el atributo `href=""`.
+Add the attribute: `href=""`.
 
 -
 
@@ -289,32 +289,32 @@ Añade el atributo `href=""`.
 <a href="http://gooogle.com">Mi página favorita</a>
 ```
 
-Llena el atributo `href` con la URL.
+fill in the the `href` attribute with the URL.
 
 -
 
-## Resultado
+## Result
 
 ```html
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Perfil - Eduardo Rivas</title>
+    <title>Profile - Ed Rivas</title>
 </head>
 
 <body>
-    <img src="imagenes/perfil.jpg" alt="Eduardo Rivas">
-    <h1>Eduardo Rivas</h1>
+    <img src="images/perfil.jpg" alt="Ed Rivas">
+    <h1>Ed Rivas</h1>
 
-    <p>No nos cansemos...</p>
+    <p>Lorem ipsum dolor...</p>
 
-    <h2>Gustos</h2>
+    <h2>Favorites</h2>
     <ul>
-        <li>HTML y CSS</li>
-        <li>Videojuegos</li>
-        <li>Perros y dinosaurios</li>
-        <li>Voluntariado</li>
+        <li>HTML & CSS</li>
+        <li>Video games</li>
+        <li>Dogs y dinos</li>
+        <li>Volunteering</li>
         <li>Twitter: <a href="http://twitter.com/je92rivas">@je92rivas</a></li>
     </ul>
 </body>
@@ -323,7 +323,7 @@ Llena el atributo `href` con la URL.
 
 -
 
-![Página de solo HTML](assets/img/html-only.png)
+![HTML-only page](assets/img/html-only.png)
 
 Notes:
 
@@ -339,7 +339,7 @@ Cascading Style Sheets
 
 -
 
-CSS es un *lenguaje de hojas de estilo*, es decir, te permite aplicar estilos de manera selectiva a elementos en documentos HTML.
+CSS is a *stylesheet language* which means it allows you to selectively style elements in your HTML document.
 
 Notes:
 
@@ -347,7 +347,7 @@ Si HTML provee la estructura y el significado, CSS provee el estilo y diseño. C
 
 -
 
-Crea el archivo `style.css` junto a `index.html`
+Create a file `style.css` next to `index.html`
 
 ```css
 p {
@@ -357,27 +357,27 @@ p {
 
 -
 
-Incluye tu hoja de estilos en el `<head>` del documento
+Include your stylesheet in the `<head>` of your document.
 
 ```html
 <head>
     <meta charset="UTF-8">
-    <title>Perfil - Eduardo Rivas</title>
+    <title>Profile - E Rivas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 ```
 
 -
 
-![HTML con CSS básico](assets/img/basic-css.png)
+![HTML with paragraph styled red](assets/img/basic-css.png)
 
 -
 
-## Reglas CSS
+## CSS Rules
 
-Las hojas de estilo son una colección de reglas
+CSS stylesheets are a collection of rules
 
-![Diagrama de regla CSS](assets/img/csspartes.png)
+![Diagram of CSS rules](assets/img/csspartes.png)
 
 Notes:
 
@@ -388,7 +388,7 @@ Notes:
 
 -
 
-Las reglas incluyen múltiples declaraciones:
+Rules can include multiple declarations
 
 ```css
 p {
@@ -411,11 +411,11 @@ Notes:
 
 ## Selectores
 
-| Selector  | Selecciona                           |
+| Selector  | Selected element                     |
 | --------  | ------------------------------------ |
 | p, li, h1 | `<p>`, `<li>` y `<h1>`               |
-| #mi-id    | Único elemento con `id="mi-id"`      |
-| .mi-clase | Todo elemento con `class="mi-clase"` |
+| #my-id    | Element with `id="my-id"`            |
+| .my-class | All elements with `class="my-class"` |
 
 Notes:
 
@@ -425,7 +425,7 @@ Notes:
 
 -
 
-## Estilos básicos
+## Basic styles
 
 ```css
 body {
@@ -447,9 +447,9 @@ Aplica las declaraciones una por una y observa su efecto.
 
 -
 
-## Conoce a las `<div>`
+## Meet the `<div>`
 
-Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando CSS.
+Divs let us group elements to apply styles using CSS.
 
 -
 
@@ -459,7 +459,7 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 
 ```html
 <body>
-    <div class="perfil">
+    <div class="profile">
         <!-- Todo lo demás -->
     </div>
 </body>
@@ -468,18 +468,18 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 -
 
 ```html
-<div class="cabecera">
-    <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
-    <h1>Eduardo Rivas</h1>
+<div class="header">
+    <img src="images/profile.jpg" alt="...">
+    <h1>Ed Rivas</h1>
 </div>
 ```
 
 -
 
 ```html
-<div class="detalles">
-    <p>No nos cansemos...</p>
-    <h2>Mis gustos</h2>
+<div class="details">
+    <p>Lorem ipsum...</p>
+    <h2>Favorites</h2>
     <ul>...</ul>
 </div>
 ```
@@ -491,23 +491,23 @@ Las divs nos permiten agrupar elementos para poder aplicarles estilos utilizando
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Perfil - Eduardo Rivas</title>
+  <title>Profile - Ed Rivas</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="perfil">
-    <div class="cabecera">
-      <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
-      <h1>Eduardo Rivas</h1>
+  <div class="profile">
+    <div class="header">
+      <img src="images/profile.jpg" alt="Ed Rivas">
+      <h1>Ed Rivas</h1>
     </div>
 
-    <div class="detalles">
-      <p>No nos cansemos...</p>
-      <h2>Gustos</h2>
+    <div class="dtails">
+      <p>Lorem ipsum...</p>
+      <h2>Favorites</h2>
       <ul>
-        <li>HTML y CSS</li>
-        <li>Videojuegos</li>
+        <li>HTML & CSS</li>
+        <li>Video games</li>
       </ul>
     </div>
   </div>
@@ -522,10 +522,10 @@ Verifica que el `<body>` de tu documento se vea como lo que ves arriba. Lo impor
 
 -
 
-Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegador.
+Add a new rule to `style.css`, save the file and refresh your browser.
 
 ```css
-.perfil {
+.profile {
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -540,7 +540,7 @@ Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegado
 -
 
 ```css
-.cabecera {
+.header {
     background-color: #00443A;
     padding-bottom: 10px;
     padding-top: 40px;
@@ -556,7 +556,7 @@ Añade una nueva regla a `style.css`, guarda los cambios, y refresca tu navegado
 -
 
 ```css
-.cabecera img {
+.header img {
     border-color: #fff;
     border-radius: 100%;
     border-style: solid;
@@ -576,7 +576,7 @@ Ahora estamos utilizando el selector de clase y elemento juntos para indicar que
 -
 
 ```css
-.detalles {
+.details {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -591,7 +591,7 @@ Ahora estamos utilizando el selector de clase y elemento juntos para indicar que
 -
 
 ```css
-.detalles ul {
+.details ul {
     padding-left: 20px;
 }
 ```
@@ -612,9 +612,9 @@ Prueba con estas propiedas:
 
 -
 
-## 🎉 ¡Misión cumplida! 🎉
+## 🎉 Well done! 🎉
 
-Has creado tu primera página web
+You've created your first web page
 
 Notes:
 
@@ -622,32 +622,32 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ---
 
-# Repaso 🔃
+# Summary 🔃
 
 -
 
 ## Internet ☁
 
-- Una red de computadoras
-- Clientes y servidores
-- Utiliza HTML, CSS, y JavaScript
+- A network of computers
+- Clients and servers
+- Uses HTML, CSS, & JavaScript
 
 -
 
 ## HTML 👩🏻‍💻
 
-- Lenguaje de marcado
-- Provee estructura y contenido
-- Compuesto por etiquetas
-- Las etiquetas pueden anidarse
-- Las etiquetas aceptan atributos
+- Markup language
+- Provides structure and content
+- Built with tags
+- Tags can be nested
+- Tags can have attributes
 
 -
 
 ```html
-<div class="cabecera">
-    <img src="imagenes/perfil.jpg" alt="Foto de Eduardo">
-    <h1>Eduardo Rivas</h1>
+<div class="header">
+    <img src="images/profile.jpg" alt="Ed Rivas">
+    <h1>Ed Rivas</h1>
 </div>
 ```
 
@@ -655,15 +655,15 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 ## CSS 🖌
 
-- Lenguaje de hoja de estilos
-- Define el estilo y apariencia
-- Compuesto por reglas
-- Las reglas contienen selectores y declaraciones
+- Stylesheet language
+- Defines style and appearance
+- Built with rules
+- Rules have selectors and declarations
 
 -
 
 ```css
-.cabecera img {
+.header img {
     border-color: #fff;
     border-radius: 100%;
     border-style: solid;
@@ -674,15 +674,14 @@ Si hay tiempo, compartir instrucciones para enviar y subir el trabajo realizado.
 
 -
 
-## ¿Preguntas? 🤔
+## Questions? 🤔
 
 ---
 
-# Siguientes pasos 🚀
+# Next steps 🚀
 
 -
 
-- La práctica hace al maestro
-- Eres el responsable de tu aprendizaje
-- Utiliza los recursos que recibiste
-- Queremos saber tu opinión
+- Practice makes perfect
+- You're in charge of your learning process
+- Learn from more resources
