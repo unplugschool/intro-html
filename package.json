@@ -21,7 +21,7 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "reveal-md": "^3.3.0",
+    "reveal-md": "^5.4.0",
     "rimraf": "^3.0.0"
   }
 }
